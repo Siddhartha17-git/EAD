@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        body{
+            background-color: aqua;
+            
+        }
+
+        form {
+      background: white;
+      border-radius: 25px;
+      padding: 20px;
+      margin:  auto;
+      width: 300px;}
+       /* form{
+            background: white;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 100px;
+            margin-right: 300px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+
+        }*/
+        @media (max-width: 60000px) {
+    form {
+        padding: 10px;
+        margin: 20px;
+    }
+}
+    h2{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <form id="login_form">
+        <h2>Login form</h2>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter usernamee.."><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter passwordd.."><br>
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob" name="dob"><br>
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">remember me</label><br>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

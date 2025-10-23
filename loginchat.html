@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      background-color: aqua;
+      font-family: Arial, sans-serif;
+    }
+    form {
+      background: white;
+      border-radius: 25px;
+      padding: 25px;
+      margin:100px auto;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    label, input {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+    }
+    input[type="checkbox"] {
+      width: auto;
+      display: inline-block;
+    }
+    button {
+      background: dodgerblue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: royalblue;
+    }
+    @media (max-width: 600px) {
+      form {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <form id="login_form">
+    <h2>login form</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter username...">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter password...">
+
+    <label for="dob">DOB</label>
+    <input type="date" id="dob" name="dob">
+
+    <input type="checkbox" id="remember" name="remember">
+    <label for="remember">Remember me</label>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
