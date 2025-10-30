@@ -6,6 +6,7 @@ import PasswordStrengthChecker from './comp/Password'
 import StatePropsDemo from './comp/StatePropsDemo'
 import TableWithPagination from './comp/TableWithPagination'
 import PortalDemo from './comp/PortalDemo'
+import Counter from './comp/Counter'
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <StatePropsDemo />
       <TableWithPagination />
       <PortalDemo />
+      <Counter />
     </div>
   );
 }
